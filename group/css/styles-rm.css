@@ -1,0 +1,55 @@
+.rashaad {
+    padding: 15%;
+    background-color: rgba(237,237,238);
+    color: #c17b69;
+
+}
+
+
+
+#dali {
+    width: 100%;
+    border: 2px solid #c17b69;
+} 
+
+.child1 {
+    margin-right:50px;
+    width: 2000px;
+    height: 600px;
+    margin: 
+}
+.child2 {
+}
+.parent {
+    display: flex;
+    
+} 
+
+.child3 img {
+    height:15%;
+    width:15%;
+    padding-top: 5%;
+    margin-bottom: 10%;
+}
+
+button {
+    background-color: #c17b69;
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: inherit;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+}
+
+
+.returns li {   
+padding-top: 24px;
+    padding-bottom: 24px;
+    border-style: solid;
+    border-width: 1px 0;
+    list-style-type:none;
+    
+}

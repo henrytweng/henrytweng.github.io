@@ -1,0 +1,628 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/*
+  Link to site template: https://www.wix.com/website/templates/html/online-store, go to Plant Boutique.
+*/
+
+/*  NOTE: Add your initials to your (constructed) class names to avoid interfering with others' classes when our CSS stylesheets are combined.
+
+     For example,
+     HTML: <div class = "hw-container">
+     CSS: .hw-container {...}
+    
+  Exception: Universal font style, scrolling, navigation bar.
+*/
+
+/* Universal styling, navbar */
+body {
+  font-family: 'Open Sans'; 
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(237, 237, 238);
+}
+
+nav {
+  height: 50px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  padding: 10px;
+  margin: 0px 20px;
+  justify-content: center;
+  border: 1px solid rgb(211,211,211);
+  background-color: rgb(237,237,238);
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+nav div h6 {
+  margin: 0px;
+  font-size: 16px;
+}
+
+.hw-left {
+  padding-top: 15px;
+  flex: 2;
+  display: flex;
+}
+
+.hw-right {
+  flex: 1;
+}
+
+.companyname {
+  width: 250px;
+}
+
+.companyname a {
+  color: #c17b69;
+  font-size: 16px;
+  text-decoration-line: none;
+}
+
+.hw-header {
+    padding: 0px 50px;
+    text-align: center;
+}
+
+.hw-header a {
+    color: #c17b69;
+    text-decoration-line: none;
+}
+/* Henry's page */
+.hw-main {
+    margin: 100px 5%;
+}
+
+.hw-hero {
+    padding: 15%;
+    text-align: center;
+    background-image: url(../images/hero.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: rgb(237,237,238);
+}
+
+.hw-hero h1 {
+   font-size: 6vw;
+   padding-bottom: 10%;
+}
+
+.hw-container {
+    display: flex;
+    margin: 100px 0px;
+}
+
+.hw-section {
+    flex: 1;
+    padding: 5% 2%;
+    background-color: rgb(237,237,238);
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hw-section h2 {
+    color: #c17b69;
+    font-size: 32px;
+}
+
+.hw-section2 {
+    margin: 100px 0px;
+    color: #c17b69;
+    display: flex;
+    background-color: #25423d;
+}
+
+.hw-section2 div {
+    flex: 1;
+    text-align: center;
+    font-size: 3vw;
+    padding: 4%;
+    border: 1px solid rgb(237,237,238);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer {
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    margin: 2% 0% 3% 5%;
+    color:  #c17b69;
+}
+
+button a {
+    color: rgb(237,237,238);
+    text-transform: uppercase;
+    font-size: 18px;
+    text-decoration-line: none;
+}
+
+button {
+    background-color: #c17b69;
+    padding: 6px;
+    border: none;
+}
+
+.back-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 150px;
+    text-align: center;
+}
+
+.back-top a {
+    padding: 5px 15px;
+    color: #c17b69;
+    background-color: rgb(237, 237, 238);
+    border: 2px solid #c17b69;
+}
+
+/*Lauren Fleshler's code for Shop page*/
+
+.pagelf{
+    margin-top: 100px;
+    background-color: rgba(237,237,238);
+    color: #c17b69;
+    font-family: "Open Sans", sans-serif;
+}
+.taglf h4{
+    font-size: 70px;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #9d4441;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.taglf h5{
+    font-size: 50px;
+    color: #ffcc33;
+    text-shadow: 2px 2px 2px #9d4441;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.containerlf h6{
+    font-size: 22px;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #333333;
+    background-color: #c17b69;
+    padding: 5px;
+    border: 1px solid #9d4441;
+}
+.herolf{
+    background-image: url(../images/riveroftulips.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1% 10% 40% 40%;
+    margin-bottom: 5%;
+}
+.containerlf{
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right 5%;
+}
+.containerlf a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.containerlf a:hover{
+    color: #c17b69;
+}
+.containerblf{
+    margin-bottom: 3%;
+    line-height: 100%;
+    font-size: 14px;
+}
+.containerblf a{
+    color: #c17b69;
+    text-decoration: none;
+}
+.containerblf a:hover{
+    color: #9a6254;
+}
+.fuchsialf{
+    flex: 1;
+    padding: 8% 10% 8% 10%;
+    text-align: center;
+    background-image: url(../images/stripedfuchsia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+.daffodilslf{
+    flex: 1;
+    padding: 8% 10% 8% 10%;
+    text-align: center;
+    margin-left: 5%;
+    background-image: url(../images/whiteyellowdaffodils.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+.coneflowerslf{
+    flex: 1;
+    padding: 8% 10% 8% 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    background-image: url("../images/purpleconeflowers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+.amarylislf{
+    flex: 1;
+    padding: 8% 10% 8% 10%;
+    text-align: center;
+    background-image: url(../images/pinkamarylis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+.dahlialf{
+    flex: 1;
+    padding: 8% 10% 8% 10%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: url(../images/pinkdahlialine.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+.mtulipslf{
+    flex: 1;
+    padding: 8% 10% 8% 10%;
+    margin-right: 5%;
+    text-align: space-between;
+    background-image: url(../images/magentatulips.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.oytulipslf{
+    flex: 1;
+    padding: 8% 10% 8% 10%;
+    text-align: center;
+    background-image: url(../images/orangeyellowtulips.jpg);
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+.tigerlf{
+    flex: 1;
+    padding: 8% 10% 8% 10%;
+    text-align: center;
+    margin-left: 5%;
+    background-image: url(../images/tigerflowers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;    
+    max-height: 100%;
+}
+.riverlf{
+    flex: 1;
+    padding: 8% 10% 8% 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    background-image: url(../images/riveroftulips.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;   
+    max-height: 100%;
+}
+.containerblf{
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right 5%;
+}
+.leftlf{ 
+    flex: 1;
+    padding: 2% 8% 2% 8%;
+    text-align: center;
+    background-color: #ffffff;
+}
+.centerlf{
+    flex: 1;
+    padding: 2% 8% 2% 8%;
+    margin-left: 5%;
+    text-align: center;
+    background-color: #ffffff;
+}
+.rightlf{
+    flex: 1;
+    padding: 2% 8% 2% 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+/*this begins Teresa's code*/
+
+.bckcolor p {
+	font-family:'Open Sans', sans-serif;
+  color: #17202A;
+}
+.bckcolor{
+    background-color: rgba(237,237,238);
+    margin-top:100px;
+    margin-right:
+}
+.bckcolor h1{
+    color: #c17b69;
+    text-align: center;
+    text-shadow: 1px 1px #333333;
+}
+.container-tc h3{
+    color: #c17b69;
+    text-shadow: 1px 1px #333333;    
+ }
+.container-tc{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.lauren{
+    flex: 1;
+    background-image: url(../images/lauren.jpg);
+    background-size: cover;
+    margin-right: 20px;
+    border: 1px solid #c17b69;
+}
+
+.rashaad{
+    flex: 1;
+    background-image: url(../images/rashaad.jpg);
+    background-size: cover;
+    margin-left: 20px;
+    border: 1px solid #c17b69;
+}
+.teresa{
+    flex: 1;
+    background-image: url(../images/teresac.jpg);
+    background-size: cover;
+    margin-right: 20px;
+}
+.henry{
+    flex: 1;
+    background-image: url(../images/henry-weng.jpg);
+    background-size: cover;
+    margin-left: 20px;
+    border: 1px solid #c17b69;
+}
+.jack{
+    flex: 1;
+    background-image: url(../images/jackw.jpg);
+    background-size: cover;
+    margin-right: 20px;
+    border: 1px solid #c17b69;
+}
+.text{
+    flex: 1;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-height: inherit;
+}
+/* Rashaads page*/
+.rashaad1 {
+    padding: 0% 15% 15% 15%;
+    background-color: rgba(237,237,238);
+    color: #c17b69;
+    margin-top: 100px;
+}
+
+#dali {
+    width: 100%;
+    border: 2px solid #c17b69;
+} 
+
+.child1 {
+    margin-right:50px;
+    width: 2000px;
+    height: 600px;
+    margin: 
+}
+.child2 {
+}
+.parent {
+    display: flex;
+    
+} 
+
+.child3 img {
+    height:15%;
+    width:15%;
+    padding-top: 5%;
+    margin-bottom: 10%;
+}
+
+button {
+    background-color: #c17b69;
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: inherit;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+}
+
+
+.returns li {   
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-style: solid;
+    border-width: 1px 0;
+    list-style-type:none;
+    
+}
+/* Jack's code starts here */
+
+.page-jw {
+  background-image: url("../images/tigerflowers.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+  padding: 10px 15px;
+  font-size: 15px;
+  border: 1px solid #c17b69;
+  color: #c17b69;
+  padding: 20px;
+  margin: 100px 10px 50px 10px;
+  background-color: rgba(237, 237, 238);
+}
+
+.h3-jw {
+  padding-top: 10%;
+  font-size: 25px;
+  text-align: center;
+  color: #c17b69;
+  font-style: bold;
+}
+
+.bg-jw {
+  width: 70%;
+  margin: auto;
+  background-color: rgba(237, 237, 238);
+}
+
+.greybg-jw h3 {
+  color: #c17b69;
+  text-align: center;
+}
+
+.greybg-jw {
+  background-color: rgba(237, 237, 238);
+  background-size: 100%;
+}
+
+.container-jw {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+
+.container-jw action {
+  background-position: static;
+}
+
+.bg-jw textarea {
+  display: block;
+  width: 85%;
+  height: 80%;
+}
+
+.inline-jw {
+  display: inline;
+  width: 85%;
+  height: 85%;
+}
+
+table {
+  table-layout: flex;
+  width: 70%;
+  margin: auto;
+  text-align: left;
+  background-color: rgba(237, 237, 238);
+}
+
+.submit-jw {
+  background-color: #c17b69;
+  padding: 6px 27px;
+}
+
+.store-jw {
+  width: 70%;
+    margin: auto;
+  background-color: rgba(237, 237, 238);
+  padding-bottom: 10%;
+}
+
+.store-jw th {
+  color: #c17b69;
+  size: 5px;
+}
+
+.sub-jw {
+  width: 50%;
+  image-orientation: center;
+}
+
+.td th{
+  width: 20%;
+  margin: auto;
+  font-size: 8px;
+}
+
+.bg2-jw {
+  width: 100%;
+  background-color: rgba(80, 208, 80);
+  background-position: center;
+  background-repeat: no repeat;
+  background-size: flex;
+  padding: 10px, 25px;
+}
+
+.soundest-subscribe-jw {
+  width: 60%;
+  margin: auto;
+}
+
+.social-icons-jw {
+  text-align: center;
+  image-orientation: center;
+}
+
+.social-icons-jw li {
+  display: inline;
+  list-style-type: none;
+}
+
+.social-icons-jw a {
+  border-bottom: none;
+}
+
+.social-icons-jw img {
+  width: 40px;
+  height: 50px;
+  margin-right: 40px;
+}
+
+.map-jw {
+  image-orientation: center;
+  position: static;
+  display: block;
+  overflow: hidden;
+  padding-left: 15%;
+  background-size: flex;
+}
+
+
+

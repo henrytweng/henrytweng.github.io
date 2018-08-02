@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/*
+  Link to site template: https://www.wix.com/website/templates/html/blogs-and-forums/2, go to Literature Blog.
+*/
+
+/*
+  Link to color scheme:
+    https://coolors.co/f5f5dc-ed6a5a-e09f7d-89a354-4c5c68
+*/
+
+body {
+    min-width: 700px;
+    font-family: 'Open Sans';
+    margin: 0px;
+    padding: 0px;
+    background-color: #F5F5DC;
+}
+
+img {
+    width: 100%;
+    margin: 14px;
+}
+
+nav {
+  height: 42px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  padding: 10px;
+  margin: 0px 20px;
+  justify-content: center;
+  border: 1px solid #4C5C68;
+  border-top: none;
+  background-color: #F5F5DC;
+}
+
+.left div h6 {
+    margin: 0px;
+    font-size: 16px;
+}
+
+a {
+    text-decoration-line: none;
+    color: #4C5C68;
+}
+
+.left {
+  margin: 10px;
+  flex: 2;
+  display: flex;
+}
+
+.right {
+  flex: 1;
+}
+
+.hw-header {
+    text-align: center;
+    margin: 0px 20px;
+}
+.blogname {
+    width: 200px;
+    letter-spacing: 2px;
+}
+
+.main {
+    margin: 100px 5%;
+}
+
+.hero {
+    text-align: center;
+    background-image: url("../images/hero.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 5% 15% 15% 15%;   
+    color: #F5F5DC;
+    border-bottom: 1px solid #4C5C68;
+}
+
+.hero h1 {
+   font-size: 6vw;
+   margin-bottom: 40%;
+   background-color: #89A354;
+   padding: 2vw;
+   letter-spacing: 3px;
+}
+
+section {
+    margin: 0% 10%;
+}
+
+article {
+    padding: 3% 1%; 
+    border-bottom: 1px solid #4C5C68; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bio {
+    margin-left: 10%;
+}
+
+.container div img {
+    border: 3px solid #4C5C68;
+}
+
+.clubs {
+    background-image: url(../images/clubs.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 5vw;
+    color: #4C5C68;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+h3 {
+    margin-top: 10px;
+    font-size: 3vw;
+    letter-spacing: 2px;
+}
+
+h4 {
+    font-weight: 100;
+}
+
+p {
+    font-size: 16px;
+    margin-left: 14px;
+}
+
+.date {
+    text-align: right;
+    font-size: 12px;
+}
+
+.notes {
+    padding-left: 10%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+li {
+    padding-bottom: 16px;
+    font-size: 16px;
+}
+
+.contact {
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 1px solid #4C5C68;
+}
+
+.books {
+    background-image: url(../images/books.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.books {
+    padding: 5% 40% 10% 5%;
+}
+
+.courses {
+    flex: 1;
+    text-align: right;
+}
+
+.courses img{
+    width: 70%;
+}
+
+footer {
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    margin: 2% 0% 3% 5%;
+    color: #4C5C68;
+}
+
+.back-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 100px;
+    background-color: #F5F5DC;
+    border: 1px solid #4C5C68;
+    padding: 5px 15px;
+    text-align: center;
+    
+}
+
+.back-top a {
+    color: #4C5C68;
+    
+}
